@@ -1,6 +1,7 @@
 const express = require("express");
 const data = require("./data.json").data;
 const app = express();
+const port = process.env.PORT || 3000;
 app.set("view engine", "pug");
 app.use("/static", express.static("public"));
 
@@ -31,6 +32,6 @@ app.use((err, req, res, next) => {
   res.render("error", { err: err });
 });
 
-app.listen(3000, () => {
+app.listen(port, () => {
   console.log("App is running");
 });
