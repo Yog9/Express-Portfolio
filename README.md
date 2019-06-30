@@ -3,7 +3,9 @@
 [Demo of Express Portfolio Here](https://express-portfolio1.herokuapp.com/)
 
 ## Summary 
-A Portfolio built with express.js
+A Portfolio built with express.js.
+
+![](/express.jpg)
 
 ### To Run the project on local machine
 
