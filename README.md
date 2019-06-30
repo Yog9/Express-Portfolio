@@ -19,4 +19,4 @@ A Portfolio built with express.js.
  
  `npm start`
 
-* Open a browser on localhost
+* Open a browser on localhost:3000/
