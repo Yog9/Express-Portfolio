@@ -5,7 +5,7 @@ block content
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
-      .cell.small-6.medium-9.large-9
+      .cell.small-12.medium-9.large-9
 
         //- Use interploation to dynamically add the project title.
         h1 #{projects[id-1].project_name}
@@ -14,12 +14,12 @@ block content
         p.lead.text-light
           |#{projects[id-1].description}
 
-      .cell.portfolio-meta.small-6.medium-2.large-3
+      .cell.portfolio-meta.small-12.medium-2.large-3
         h6 Technologies
 
         //- Use an `each` iterator to replace the li tags below and interploation to dynamically add the technologies used in each project.
-        each tech in projects[id-1].technologies
-          ul
+        ul
+          each tech in projects[id-1].technologies
             li= tech
          
 
@@ -30,7 +30,7 @@ block content
             a(href=`${projects[id-1].live_link}`,target="_blank") Live Demo
           li
             i.fab.fa-github
-            a(href=`${projects[id-1].github_link}`,target="_blank") GitHub Repo
+            a(href=`${projects[id-1].github_link}`,target="_blank") GitHub 
       
     //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential emplyers will like to see. 
     img.image(src=`${projects[id-1].image_urls[1]}`)
