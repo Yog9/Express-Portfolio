@@ -1,0 +1,76 @@
+{
+  "data": {
+    "project": [
+      {
+        "id": "1",
+        "project_name": "Web App Dashboard",
+        "description": "Web App Dashboard is a web dashboard that uses Chart.js to create line, bar, and pie charts and also uses local storage to save user changes.",
+        "technologies": ["Javascript", "Chart.js", "Local Storage"],
+        "live_link": "https://yog9.github.io/Web-App-Dashboard",
+        "github_link": "https://github.com/Yog9/Web-App-Dashboard",
+        "image_urls": [
+          "/static/images/project1_pic1.jpg",
+          "/static/images/project1_pic1.png",
+          "/static/images/project1_pic2.png",
+          "/static/images/project1_pic3.png"
+        ]
+      },
+      {
+        "id": "2",
+        "project_name": "Employee Directory",
+        "description": "Employee Directory uses Random user generator API to generate random users and their details. Clicking the user would popup a modal with more information.This project included Ajax calls using jQuery and CSS.",
+        "technologies": ["jQuery", "Ajax", "FlexBox Layout"],
+        "live_link": "https://yog9.github.io/Employee-Directory/",
+        "github_link": "https://github.com/Yog9/Employee-Directory",
+        "image_urls": [
+          "/static/images/project2_pic1.png",
+          "/static/images/project2_pic1.png",
+          "/static/images/project2_pic2.png",
+          "/static/images/project2_pic3.png"
+        ]
+      },
+      {
+        "id": "3",
+        "project_name": "Wheel of Success",
+        "description": "Wheel Of Sucess is a browser version of a word guessing game. It uses Javascript to generate a random phrase that player tries to guess by clicking the letters from an onscreen keyboard.",
+        "technologies": ["Javascript", "CSS3", "HTML5"],
+        "live_link": "https://yog9.github.io/Wheel-Of-Sucess/",
+        "github_link": "https://github.com/Yog9/Wheel-Of-Sucess",
+        "image_urls": [
+          "/static/images/project3_pic1.png",
+          "/static/images/project3_pic1.png",
+          "/static/images/project3_pic2.png",
+          "/static/images/project3_pic3.png"
+        ]
+      },
+      {
+        "id": "4",
+        "project_name": "Interactive Form",
+        "description": "Interactive Form uses JavaScript to enhance the form by adding interactivity like providing helpful error messages when the user tries to submit the form and enters invalid information into the form fields.",
+        "technologies": ["Javascript", "CSS3", "HTML5"],
+        "live_link": "https://yog9.github.io/Interactive-form--website/",
+        "github_link": "https://github.com/Yog9/Interactive-form--website",
+        "image_urls": [
+          "/static/images/project4_pic1.png",
+          "/static/images/project4_pic1.png",
+          "/static/images/project4_pic2.png",
+          "/static/images/project4_pic3.png"
+        ]
+      },
+      {
+        "id": "5",
+        "project_name": "Photo Gallery",
+        "description": "Photo Gallery is an interactive photo gallery built using JavaScript and a jQuery plugin for a lightbox. It also has a search box funtionality that filters the photos in real-time as the user types, and only display photos that match the search.",
+        "technologies": ["Javascript", "CSS3", "HTML5"],
+        "live_link": "https://yog9.github.io/Photo-Gallery/",
+        "github_link": "https://github.com/Yog9/Photo-Gallery",
+        "image_urls": [
+          "/static/images/project5_pic1.png",
+          "/static/images/project5_pic1.png",
+          "/static/images/project5_pic2.png",
+          "/static/images/project5_pic3.png"
+        ]
+      }
+    ]
+  }
+}
