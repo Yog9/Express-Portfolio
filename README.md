@@ -7,7 +7,7 @@
 Express Portfolio showcases the projects that I have built. It stores all the data about the projects in a
 JSON file. It uses Pug to generate a template that utilizes JSON to generate a markup that is displayed in the browser.
 
-![](/express.jpg)
+![](/express portfolio.jpg)
 
 ### Motivation
 The purpose of this project was to get familiar with Node js with Express along with Pug template engine.
